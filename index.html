@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Välkommen på Meet & Greet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        body {
+            color: rgb(51 65 85);
+            background-color: rgb(100 116 139);
+         }
+
+         h1, h2, h3 {
+
+            color: rgb(30 41 59);
+            
+
+         }
+
+         h1 {
+            margin: 0 0 3rem 0;
+         }
+
+         p {
+            margin: 2rem 0;
+         }
+
+         .profileCard a {
+            color: rgb(71 85 105);
+            font-size: 12px;
+         }
+
+         .profileCard a:hover {
+            color: rgb(15 23 42);
+            
+         }
+
+         main {
+
+            padding: 2rem;
+            border-bottom: 1px solid rgb(51 65 85);
+            margin-bottom: 2rem;
+
+         }
+         footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2rem;
+         }
+        .container {
+            background-color: rgb(203 213 225);
+            width: 80%;
+            max-width: 800px;
+            margin: auto;
+
+        }
+        .profilePic {
+            width: 5rem;
+            height: 5rem;
+            border: 1px solid rgb(164, 172, 184);
+            border-radius: 50%;
+            margin-bottom: 0.5rem;
+
+        }
+        .hero {
+            max-width: 100%;
+        }
+
+        .button {
+            background-color: rgb(100 116 139);
+            color: rgb(226 232 240);
+            display: inline-block;
+            border: 1px solid rgb(51 65 85);
+            border-radius: 3rem;
+            padding: 0.5rem 2rem;
+            margin: 3rem 0
+
+        }
+
+        .button:hover {
+            
+            background-color: rgb(71 85 105);
+            color: rgb(248 250 252);
+            cursor: pointer;
+
+
+        }
+
+        .profileCard {
+            background-color: rgb(241 245 249);
+            border: 1px solid rgb(51 65 85);
+            border-radius: 1rem;
+            padding: 1rem;
+            width: 10rem;
+            height: 16rem;
+            margin: 1rem;
+            box-shadow: 0.15rem 0.15rem rgba(30, 41, 59, 0.3);
+        }
+
+        .profileHeader {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .greetings {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .chasLogo {
+            width: 180px
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./img/meetandgreet.png" alt="Meet & Greet" class="hero">
+        </header>
+        <main>
+            <h1>Välkommen på Meet & Greet hos Chas Academy!</h1>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste laboriosam incidunt unde ipsa odit similique, vero doloribus eum. Quidem autem quis magni nam aperiam illum doloribus odio sapiente dolorem voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, in mollitia! Libero vitae sit nisi ut autem qui illum provident eius iusto! Id quae veniam, rerum voluptatum unde, quas iste expedita consequatur molestiae officiis facere reiciendis, illum optio animi dolor?</p>
+            
+            <div class="greetings">
+                <div>
+                    <a href="">
+                        <div class="button">Klicka för anmälan</div>
+                    </a> 
+        
+                    <h2>Varma Hälsningar</h2>
+                    <p>Aylin, Christoffer, Joanna, Keb, Lisa, Nadin och Peri</p>
+                </div>
+                <div>
+                    <img src="./img/chas-academy.png" alt="Chas Academy Logo" class="chasLogo">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="profileCard">
+                <div class="profileHeader">
+                    <img src="./img/aylin.westin.png" alt="Aylin Westin profile picture" class="profilePic">
+                </div>
+                <h3>Aylin Westin</h3>
+                <p>UX/UI Designer</p>
+                <ul>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="mailto:example@example.com">example@example.com</a></li>
+                </ul>     
+            </div>
+            <div class="profileCard">
+                <div class="profileHeader">
+                    <img src="./img/christoffer.gylin.png" alt="Christoffer Gylin profile picture" class="profilePic">
+                </div>
+                <h3>Christoffer Gylin</h3>
+                <p>Frontend Utvecklare</p>
+                <ul>
+                    <li><a href="https://github.com/ChristofferGylin">GitHub</a></li>
+                    <li><a href="https://christoffergylin.com">Portfolio</a></li>
+                    <li><a href="mailto:example@example.com">christoffer@christoffergylin.com</a></li>
+                </ul>     
+            </div>
+            <div class="profileCard">
+                <div class="profileHeader">
+                    <img src="./img/joanna.olofsson.png" alt="Joanna Olofsson profile picture" class="profilePic">
+                </div>
+                <h3>Joanna Olofsson</h3>
+                <p>UX/UI Designer</p>
+                <ul>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="mailto:example@example.com">example@example.com</a></li>
+                </ul>     
+            </div>
+            <div class="profileCard">
+                <div class="profileHeader">
+                    <img src="./img/christoffer.gylin.png" alt="Christoffer Gylin profile picture" class="profilePic">
+                </div>
+                <h3>Christoffer Gylin</h3>
+                <p>Frontend Utvecklare</p>
+                <ul>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="mailto:example@example.com">christoffer@christoffergylin.com</a></li>
+                </ul>     
+            </div>
+            <div class="profileCard">
+                <div class="profileHeader">
+                    <img src="./img/christoffer.gylin.png" alt="Christoffer Gylin profile picture" class="profilePic">
+                </div>
+                <h3>Christoffer Gylin</h3>
+                <p>Frontend Utvecklare</p>
+                <ul>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="mailto:example@example.com">christoffer@christoffergylin.com</a></li>
+                </ul>     
+            </div>
+            <div class="profileCard">
+                <div class="profileHeader">
+                    <img src="./img/christoffer.gylin.png" alt="Christoffer Gylin profile picture" class="profilePic">
+                </div>
+                <h3>Christoffer Gylin</h3>
+                <p>Frontend Utvecklare</p>
+                <ul>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="mailto:example@example.com">christoffer@christoffergylin.com</a></li>
+                </ul>     
+            </div>
+            <div class="profileCard">
+                <div class="profileHeader">
+                    <img src="./img/christoffer.gylin.png" alt="Christoffer Gylin profile picture" class="profilePic">
+                </div>
+                <h3>Christoffer Gylin</h3>
+                <p>Frontend Utvecklare</p>
+                <ul>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="mailto:example@example.com">christoffer@christoffergylin.com</a></li>
+                </ul>     
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
