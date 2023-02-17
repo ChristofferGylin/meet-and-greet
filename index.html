@@ -21,7 +21,7 @@
             font-family: 'Roboto', sans-serif;
          }
 
-         h1, h2, h3 {
+         h1, h2 {
 
             color: rgb(30 41 59);
             
@@ -100,21 +100,45 @@
         }
 
         .profileCard {
-            background-color: rgb(241 245 249);
-            
-            border-radius: 1rem;
-            padding: 1rem;
-            width: 10rem;
-            height: 17rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(226 232 240);
+            overflow: hidden;
+            border-radius: 1rem;            
+            width: 12rem;
+            height: 19.4rem;
             margin: 1rem;
             box-shadow: 0.15rem 0.15rem 0.15rem rgba(30, 41, 59, 0.4);
+            letter-spacing: 0.1rem;
         }
 
         .profileHeader {
             display: flex;
+            flex-direction: column;
+            background-color: rgb(30 41 59);
+            color: rgb(241 245 249);
+            display: flex;
             width: 100%;
             justify-content: center;
+            align-items: center;
+            padding: 1rem;
             
+        }
+        .profileBody {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: rgb(51 65 85);
+            padding: 0.7rem 1rem 1rem 1rem;
+        }
+
+        .profileBody p {
+            text-align: center;
+            font-size: 0.97rem;
+            margin: 0;
+            font-weight: 700;
         }
 
         li {
@@ -164,94 +188,110 @@
             <div class="profileCard">
                 <div class="profileHeader">
                     <img src="./img/aylin.westin.png" alt="Aylin Westin profile picture" class="profilePic">
+                    <h3>Aylin Westin</h3>
                 </div>
-                <h3>Aylin Westin</h3>
-                <p>UX/UI Designer</p>
-                <ul>
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="mailto:example@example.com">example@example.com</a></li>
-                </ul>     
+                <div class="profileBody">
+                    <p>UX/UI-Designer</p>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="mailto:example@example.com">example@example.com</a></li>
+                    </ul>    
+                </div>   
             </div>
             <div class="profileCard">
                 <div class="profileHeader">
                     <img src="./img/christoffer.gylin.png" alt="Christoffer Gylin profile picture" class="profilePic">
+                    <h3>Christoffer Gylin</h3>
                 </div>
-                <h3>Christoffer Gylin</h3>
-                <p>Frontend Utvecklare</p>
-                <ul>
-                    <li><a href="https://github.com/ChristofferGylin">GitHub</a></li>
-                    <li><a href="https://christoffergylin.com">Portfolio</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="mailto:example@example.com">christoffer@christoffergylin.com</a></li>
-                </ul>     
+                <div class="profileBody">
+                    <p>Frontendutvecklare</p>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="mailto:example@example.com">example@example.com</a></li>
+                    </ul>    
+                </div>   
             </div>
             <div class="profileCard">
                 <div class="profileHeader">
                     <img src="./img/joanna.olofsson.png" alt="Joanna Olofsson profile picture" class="profilePic">
+                    <h3>Joanna Olofsson</h3>
                 </div>
-                <h3>Joanna Olofsson</h3>
-                <p>UX/UI Designer</p>
-                <ul>
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="mailto:example@example.com">example@example.com</a></li>
-                </ul>     
+                <div class="profileBody">
+                    <p>UX/UI-Designer</p>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="mailto:example@example.com">example@example.com</a></li>
+                    </ul>    
+                </div>  
             </div>
             <div class="profileCard">
                 <div class="profileHeader">
-                    <img src="./img/christoffer.gylin.png" alt="Christoffer Gylin profile picture" class="profilePic">
+                    <img src="./img/keb.derian.png" alt="Keb Derian profile picture" class="profilePic">
+                    <h3>Keb Derian</h3>
                 </div>
-                <h3>Christoffer Gylin</h3>
-                <p>Frontend Utvecklare</p>
-                <ul>
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="mailto:example@example.com">christoffer@christoffergylin.com</a></li>
-                </ul>     
+                <div class="profileBody">
+                    <p>Frontendutvecklare</p>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="mailto:example@example.com">example@example.com</a></li>
+                    </ul>    
+                </div>  
             </div>
             <div class="profileCard">
                 <div class="profileHeader">
-                    <img src="./img/christoffer.gylin.png" alt="Christoffer Gylin profile picture" class="profilePic">
+                    <img src="./img/lisa.emilson.png" alt="Lisa Emilson profile picture" class="profilePic">
+                    <h3>Lisa Emilson</h3>
                 </div>
-                <h3>Christoffer Gylin</h3>
-                <p>Frontend Utvecklare</p>
-                <ul>
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="mailto:example@example.com">christoffer@christoffergylin.com</a></li>
-                </ul>     
+                <div class="profileBody">
+                    <p>UX/UI-Designer</p>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="mailto:example@example.com">example@example.com</a></li>
+                    </ul>    
+                </div>    
             </div>
             <div class="profileCard">
                 <div class="profileHeader">
-                    <img src="./img/christoffer.gylin.png" alt="Christoffer Gylin profile picture" class="profilePic">
+                    <img src="./img/nadin.salimholm.png" alt="Nadin Salimholm profile picture" class="profilePic">
+                    <h3>Nadin Salimholm</h3>
                 </div>
-                <h3>Christoffer Gylin</h3>
-                <p>Frontend Utvecklare</p>
-                <ul>
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="mailto:example@example.com">christoffer@christoffergylin.com</a></li>
-                </ul>     
+                <div class="profileBody">
+                    <p>UX/UI-Designer</p>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="mailto:example@example.com">example@example.com</a></li>
+                    </ul>    
+                </div> 
             </div>
             <div class="profileCard">
                 <div class="profileHeader">
-                    <img src="./img/christoffer.gylin.png" alt="Christoffer Gylin profile picture" class="profilePic">
+                    <img src="./img/perizat.boeskeva.png" alt="Perizat Boeskeva profile picture" class="profilePic">
+                    <h3>Perizat Boeskeva</h3>
                 </div>
-                <h3>Christoffer Gylin</h3>
-                <p>Frontend Utvecklare</p>
-                <ul>
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="mailto:example@example.com">christoffer@christoffergylin.com</a></li>
-                </ul>     
+                <div class="profileBody">
+                    <p>UX/UI-Designer Kravkompetens</p>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="mailto:example@example.com">example@example.com</a></li>
+                    </ul>    
+                </div>
+                 
             </div>
+            
         </footer>
 
     </div>
