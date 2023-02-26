@@ -30,6 +30,8 @@
 
          h1 {
             margin: 0 0 3rem 0;
+            line-height: 2.5rem;
+            max-width: 600px;
          }
 
          h2 {
@@ -92,7 +94,8 @@
             border: 1px solid rgb(51 65 85);
             border-radius: 3rem;
             padding: 0.5rem 2rem;
-            margin: 3rem 0
+            margin: 3rem 0;
+    
 
         }
 
@@ -165,9 +168,24 @@
         .greetings {
             width: 100%;
             display: flex;
+            flex-direction: column;
             justify-content: space-between;
             align-items: center;
             gap: 1rem;
+        }
+
+        @media screen and (min-width: 710px) {
+
+            .greetings {
+
+                flex-direction: row;
+
+            }
+
+            
+
+            
+
         }
 
         .chasAcademyLogo {
@@ -176,14 +194,24 @@
 
         .footer {
             display: flex;
+            flex-direction: column;
+            gap: 2rem;
             justify-content: space-between;
             align-items: center;
             background-color: rgb(74,90,125);
             color: rgb(226 232 240);            
-            height: 7rem;
+            
             letter-spacing: 0.1rem;
             line-height: 1.42rem;
             padding: 1.7rem;
+        }
+
+        @media screen and (min-width: 570px) {
+
+            .footer {
+                flex-direction: row;
+            }
+
         }
 
         .chasLogo {
